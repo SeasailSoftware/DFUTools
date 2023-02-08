@@ -1,0 +1,21 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="s_FirmwareFile">Firmware File</s:String>
+    <s:String x:Key="s_Browse">Browse</s:String>
+    <s:String x:Key="s_FirmwareWatermask">Open the firmware upgrade file (.bin or.dfu or.hex).</s:String>
+    <s:String x:Key="s_DeviceList">Device List</s:String>
+    <s:String x:Key="s_Index">Index</s:String>
+    <s:String x:Key="s_Description">Description</s:String>
+    <s:String x:Key="s_Path">Path</s:String>
+    <s:String x:Key="s_Refresh">Refresh</s:String>
+    <s:String x:Key="s_Upgrade">Upgrade</s:String>
+    <s:String x:Key="s_Language">Language</s:String>
+    <s:String x:Key="s_Accept">Accept</s:String>
+    <s:String x:Key="s_Cancel">Cancel</s:String>
+    <s:String x:Key="s_Theme">Theme</s:String>
+    <s:String x:Key="s_Close">Close</s:String>
+    <s:String x:Key="s_Erasing$0$Percentage">Erasing，{0}% finished</s:String>
+    <s:String x:Key="s_Upgrading$0$Percentage">Upgrading，{0}% finished</s:String>
+</ResourceDictionary>
