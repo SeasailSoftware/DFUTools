@@ -65,7 +65,7 @@ namespace STM32FirmwareUpdater.Views.Settings {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/STM32FirmwareUpdater;component/views/settings/themesettingview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/STM32FirmwareUpdater;V1.0.0.0;component/views/settings/themesettingview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\Settings\ThemeSettingView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -136,13 +136,13 @@
                 Margin="5"
                 Foreground="{DynamicResource MahApps.Brushes.Accent}"
                 IsIndeterminate="{Binding IsRunning}" />
-            <StackPanel mah:VisibilityHelper.IsVisible="{Binding Upgrading}">
+            <StackPanel mah:VisibilityHelper.IsVisible="{Binding Upgrading}" VerticalAlignment="Center">
                 <mah:MetroProgressBar
                     Height="5"
                     Margin="5"
                     Foreground="{DynamicResource MahApps.Brushes.Accent}"
                     Value="{Binding Progress}" />
-                <TextBlock HorizontalAlignment="Center" Text="{Binding ProgressText}" />
+                <TextBlock HorizontalAlignment="Center" Text="{Binding ProgressText}" Margin="3" FontSize="11"/>
             </StackPanel>
 
             <UniformGrid Grid.Column="1" Rows="1">
